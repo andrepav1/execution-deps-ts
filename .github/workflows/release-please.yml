@@ -6,6 +6,7 @@ on:
 permissions:
   contents: write
   pull-requests: write
+  id-token: write # needed for provenance data generation
 
 name: release-please
 
