@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/andrepav1/execution-deps-ts/compare/v1.1.1...v1.1.2) (2024-03-02)
+
+
+### Bug Fixes
+
+* conditional release with nx ([2324baf](https://github.com/andrepav1/execution-deps-ts/commit/2324bafd8df275eaa08c3914b73019715facbc8d))
+
 ## [1.1.1](https://github.com/andrepav1/execution-deps-ts/compare/v1.1.0...v1.1.1) (2024-03-02)
 
 
