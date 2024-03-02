@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.3](https://github.com/andrepav1/execution-deps-ts/compare/v1.1.2...v1.1.3) (2024-03-02)
+
+
+### Bug Fixes
+
+* npm provenance permission ([7c1a899](https://github.com/andrepav1/execution-deps-ts/commit/7c1a8997849dc521ab4b4f3ef94e50bb60c9c323))
+
 ## [1.1.2](https://github.com/andrepav1/execution-deps-ts/compare/v1.1.1...v1.1.2) (2024-03-02)
 
 
