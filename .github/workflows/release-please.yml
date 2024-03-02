@@ -25,15 +25,29 @@ jobs:
           release-type: node
 
       - uses: actions/checkout@v4
-        # these if statements ensure that a publication only occurs when
-        # a new release is created:
+        # only publish when a new release is created
         if: ${{ steps.release.outputs.release_created }}
+
       - uses: actions/setup-node@v4
+        if: ${{ steps.release.outputs.release_created }}
         with:
-          node-version: 18
-          registry-url: 'https://registry.npmjs.org'
+          node-version: 20
+          registry-url: https://registry.npmjs.org/
+
+      - name: Install dependencies
         if: ${{ steps.release.outputs.release_created }}
-      - run: yarn nx release publish
+        run: npm install
+        shell: bash
+
+      - name: Print Environment Info
+        if: ${{ steps.release.outputs.release_created }}
+        run: npx nx report
+        shell: bash
+
+      - name: Publish packages
+        if: ${{ steps.release.outputs.release_created }}
+        run: npx nx release publish
+        shell: bash
         env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
-        if: ${{ steps.release.outputs.release_created }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NPM_CONFIG_PROVENANCE: true
