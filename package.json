@@ -11,7 +11,8 @@
   },
   "dependencies": {
     "dependency-tree": "^10.0.9",
-    "tslib": "^2.3.0"
+    "tslib": "^2.3.0",
+    "yarn": "^1.22.21"
   },
   "devDependencies": {
     "@nx/eslint": "18.0.6",
