@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/andrepav1/execution-deps-ts/compare/v1.0.0...v1.1.0) (2024-03-02)
+
+
+### Features
+
+* npm publish ([093103f](https://github.com/andrepav1/execution-deps-ts/commit/093103f9042769fa05716f632d5797bedfd3eb8c))
+
 ## 1.0.0 (2024-03-02)
 
 
