@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/andrepav1/execution-deps-ts/compare/v1.1.0...v1.1.1) (2024-03-02)
+
+
+### Bug Fixes
+
+* action script ([c87f9d3](https://github.com/andrepav1/execution-deps-ts/commit/c87f9d30d70da330f2c7ced17325d5aa43e701e1))
+
 ## [1.1.0](https://github.com/andrepav1/execution-deps-ts/compare/v1.0.0...v1.1.0) (2024-03-02)
 
 
